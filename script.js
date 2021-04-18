@@ -8,7 +8,7 @@ function main()
                 ['kalender.jpeg'], ['pin1.jpeg', 'pin2.jpeg']];
     
     let counter = 0;
-    
+    let img = document.querySelectorAll('.container .product-img img');
     let btnLeft = document.querySelector('#left');
     let btnRight = document.querySelector('#right');
 
@@ -22,14 +22,18 @@ function main()
         } 
 
         document.querySelector('#product-name').innerHTML = title[counter];
-        text = '';
 
+        // Exist images
         for (i = 0; i < name[counter].length; i++)
         {
-            text += `<img src="products/${name[counter][i]}">`
+            img[i].src = `products/${name[counter][i]}`;
         }
 
-        document.querySelector('.product-img').innerHTML = text;
+        // Zeroed images
+        for (j = i; j < 2; j++)
+        {
+            img[j].src = "";
+        }
     } 
 
     btnRight.onclick = function () 
@@ -38,14 +42,17 @@ function main()
         counter %= 9
         document.querySelector('#product-name').innerHTML = title[counter];
 
-        text = '';
-
-        for (i = 0; i < name[counter].length; i++)
-        {
-            text += `<img src="products/${name[counter][i]}">`
-        }
-
-        document.querySelector('.product-img').innerHTML = text;
+         // Exist images
+         for (i = 0; i < name[counter].length; i++)
+         {
+             img[i].src = `products/${name[counter][i]}`;
+         }
+ 
+         // Zeroed images
+         for (j = i; j < 2; j++)
+         {
+             img[j].src = "";
+         }
     } 
 }
 
