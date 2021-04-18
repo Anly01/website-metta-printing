@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+}
+.header {
+    display: block;
+    width: 100%;
+}
+.footer{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+table{
+    padding:30px;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #2E3192;
+    text-align: center;
+}
+
+ul{}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-decoration: bold;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fdfdff;
+    padding: 0 70px;}
+
+ul li a:hover{
+    color: #fb1428;
+    background-color:#fdfdff;
+}
+
+.hometable{
+    text-align: right;
+}
+.home{
+    padding-left: 150px;
+    padding-right: 75px;
+    width: 134px;
+    height: 130px;
+}
+
+.badan-contact{
+    margin: 20px;
+}
+
+.hometext{
+    padding-right: 117px;
+    color: #2E3192;
+}
+.product-text{
+    padding-right: 98px;
+    color: #2E3192;
+}
+
+.contact-text{
+    padding-right: 90px;
+    color: #2E3192;
+
+}
+
+.identitasperusahaan{
+    text-align: center;
+    font-size: 19px;
+    background-color:#2E3192;
+    color: #fdfdff;
+    padding: 20px;
+}
+.founderimage{
+    text-align: right;
+    padding-bottom: 40px;
+}
+.foundertext{
+    padding-top: 40px;
+    padding-right: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+.lianto{
+    padding-top: 40px;
+    width: 220px;
+    height: 220px;
+}
+.mrlianto{
+    font-size: 30px;
+}
+.vision{
+    background-color: #2E3192;
+    color: #fdfdff;
+    padding:10px;
+    text-align: center;
+}
+.visiontext{
+    text-align: center;
+    font-size: 19px;
+    font-style: italic;
+    padding: 40px 100px 40px 100px;
+}
+.mission{
+    background-color: #2E3192;
+    color: #fdfdff;
+    padding:10px;
+    text-align: center;
+}
+.missiontext{
+    text-align: justify;
+    font-size: 19px;
+    font-style: italic;
+    padding: 40px 100px 40px 100px;
+}
+
+/* Products */
+.container {
+    position: relative;
+    margin: auto;
+    width: 95%;
+}
+
+.container #product-name {
+    position: relative;
+    font-size: 19px;
+    color: white;
+    padding: 10px;
+    background-color: #2E3192;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container .product-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .product-img img{
+    margin: 20px;
+}
+
+.container #left, .container #right {
+    position: absolute;
+    border: none;
+    color: #2E3192;
+    background: none;
+    font-size: 40px;
+    top: 50%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.container #left:hover, .container #right:hover {
+    cursor: pointer;
+}
+
+.container #left {
+    left: 0%;
+}
+
+.container #right {
+    right: 0%;
+}
+
+.contactperusahaan{
+    text-align: center;
+    font-size: 19px;
+    background-color:#2E3192;
+    color: #fdfdff;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts{
+    padding: 5px;
+}
+
+.map{
+    text-align: center;
+    padding: 10px;
+}
+
+.hyperlink{
+    color: #fdfdff;
+    text-decoration: none;
+}
+
+.hyperlink:hover{
+    color: #fb1428;
+    text-decoration: none;
+}
+
+.walogo{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contacttext{
+    display: inline-block;
+}
+
+.instagramlogo{
+    padding-top: 3px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.addresslogo {
+    width: 24px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.telephonelogo{
+    width: 32px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/* .container .product-img img{
+    width: 348px;
+    height: 348px;
+} */
